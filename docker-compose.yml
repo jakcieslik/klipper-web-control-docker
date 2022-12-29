@@ -6,9 +6,9 @@ services:
     build:
       dockerfile: ./klipper/Dockerfile
       context: .
-       args:
-         DEVICE_GROUP: device
-         DEVICE_GID: 987
+      args:
+        DEVICE_GROUP: device
+        DEVICE_GID: 987
     container_name: klipper
     ports:
       - 7125:7125
