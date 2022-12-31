@@ -25,6 +25,7 @@ services:
     # put <container_dev> into your printer.cfg
     devices:
       - /dev/ttyUSB0:/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
+      - /dev/video0:/dev/v4l/by-id/usb-Creative_Technology_Ltd._Live__Cam_Sync_HD_VF0770-video-index0
 
   ##################################################################
   # Example config for a second printer on a different serial port
