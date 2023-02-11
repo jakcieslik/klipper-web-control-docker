@@ -90,6 +90,5 @@ services:
     links:
       - klipper:klipper
       # - klipper_another_printer:klipper_another_printer
-
     volumes:
       - gcodes:/home/klippy/printer_data/gcodes
