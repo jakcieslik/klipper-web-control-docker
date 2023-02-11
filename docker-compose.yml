@@ -91,5 +91,5 @@ services:
       - klipper:klipper
       # - klipper_another_printer:klipper_another_printer
 
-volumes: 
-  gcodes: /var/lib/docker/volumes/3dprinting_gcodes/_data
+    volumes:
+      - gcodes:/home/klippy/printer_data/gcodes
